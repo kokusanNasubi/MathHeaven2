@@ -23,9 +23,11 @@ public class SceneElement : MonoBehaviour
             sceneName = SceneRegistration.GetSceneName(SCENE);
         }
     }
+    #region 
     /// <summary>
     /// instantiate with TargetScene.
     /// </summary>
+    #endregion
     public SceneElement(TargetScene scene)
     {
         this.scene = scene;

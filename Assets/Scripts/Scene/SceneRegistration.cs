@@ -22,8 +22,9 @@ namespace SceneHandler
             { TargetScene.Title, Title.name }
         };
 
+
+
         public static string GetSceneName(TargetScene targetScene)
             => SceneDB[targetScene];
-
     }
 }
